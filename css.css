@@ -397,6 +397,10 @@ body .body2{
     display: none;
     }
 
+    .sec2linkIMG{
+    margin-top: 1px;
+    }
+
 }
 
 @media (max-width: 850px){
@@ -489,6 +493,7 @@ body .body2{
     .sec2linkIMG{
     width: 12px;
     height: 12px;
+    margin-top: 1px;
     }
 
 }
