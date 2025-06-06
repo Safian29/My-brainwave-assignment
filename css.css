@@ -226,7 +226,7 @@ nav{
 /* SECTION 2 */
 
 body .body2{
-    margin-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 .sec2H1{
@@ -375,10 +375,19 @@ body .body2{
     color: #161c2d98;
 }
 
+.divider {
+  display: flex;
+  margin-top: 50px;
 
+}
 
-
-
+.divider::before {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: rgba(131, 131, 131, 0.148);
+  margin: 5px;
+}
 
 
 /* RESPONSIVENESS */
@@ -518,3 +527,354 @@ body .body2{
 }
 } 
 
+
+/* SECTION 3 */
+
+.section3{
+    padding-bottom: 80px;
+}
+
+.sec3H1{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.sec3H2D{
+    width: 550px;
+}
+
+.sec3H2{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+/* main */
+
+.sec3Main{
+    gap: 79.5px;
+    padding-bottom: 80px;
+}
+
+/* left */
+
+.sec3lImgD{
+    width: 103%;
+    height: 500px;
+}
+
+.sec3lImg{
+    width: 100%;
+    height: fit-content;
+    margin-top: 70px;
+}
+
+/* right */
+
+                            .sec3MRiD{
+                                width: 102.5%;
+                            }
+                            
+                            .sec3MPic1D{
+                                width: 70%;
+                                margin-bottom: 84px;
+                            }
+                            
+                            .sec3MPic1{
+                                width: 80%;
+                            }
+                            
+                            .sec3MPdots{
+                                width: 70px;
+                                height: 70px;
+                                position: sticky;
+                                bottom: 336px;
+                                margin-left: -43px;
+                            }
+                            
+                            .sec3MPic2D{
+                                width: 30%;
+                                height: fit-content;
+                                margin-top: 120px;
+                            }
+                            
+                            .sec3MPic2{
+                                width: 100%;
+                            }
+                            
+.sec3MtextD{
+    width: 95%;
+    height: fit-content;
+}
+
+.sec3Mtext{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #161c2dbe;
+}
+
+                             .sec3_3TD{
+                                margin-top: 80px;
+                             }
+
+                             .sec3_1stH, .sec3_2ndH, .sec3_3rdH{
+                                font-family: gilroy;
+                                font-weight: 700;
+                                font-size: 48px;
+                                color: #161C2D;
+                             }
+
+                             .sec3_1stHt, .sec3_2ndHt, .sec3_3rdHt{
+                                font-family: gilroy;
+                                font-weight: 400;
+                                font-size: 19px;
+                                color: #161c2dbe;
+                             }
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1199px){
+
+     .sec3_3TD{
+     margin-top: 0px;
+     }
+
+     .sec3_2ndD{
+      position: relative;
+      top: 30px;
+     }
+
+     .sec3_3rdD{
+      position: relative;
+      top: 60px;
+     }
+
+     .sec3_3TD{
+     padding-bottom: 60px;
+     }
+        
+}
+
+@media (max-width: 1116){
+     
+    .sec3Mright{
+    margin-bottom: 300px;
+    }
+} 
+
+@media (max-width: 1070px){
+     
+    .sec3Mright{
+     position: relative;
+     bottom: 50px;
+     }
+
+     .sec3_3TD{
+     position: relative;
+     bottom: 110px;
+     }
+} 
+
+@media (max-width: 1070px){
+
+    .sec3_3TD{
+    margin-bottom: -140px;
+    }
+}
+ 
+@media (max-width: 1000px){
+
+    /* right */
+
+    .sec3MPic1D{
+    margin-bottom: 20px;
+    }
+
+    /* left */
+
+     .sec3Mleft, .sec3lImgD{
+     height: fit-content;
+     } 
+
+}
+
+@media (max-width: 950px){
+
+     .sec3Mright{
+     position: relative;
+     bottom: 95px;
+     }
+
+     .sec3_3TD{
+     position: relative;
+     bottom: 155px;
+     }
+
+}
+
+@media (max-width: 850px){
+
+    .sec3_3TD{
+    margin-bottom: -170px;
+    }
+    
+    .sec3H2D{
+    width: 370px;
+}
+
+.sec3H2{
+    font-size: 26px;
+    line-height: 38px;
+}
+
+/* right */
+
+.sec3MtextD{
+width: 103%;
+}
+
+.sec3Mtext{
+font-size: 13px;
+}
+
+/* left */
+
+.sec3lImg{
+    margin-top: 30px;
+}
+
+.sec3_1stH, .sec3_2ndH, .sec3_3rdH{
+font-size: 36px;
+ }
+
+ .sec3_1stHt, .sec3_2ndHt, .sec3_3rdHt{
+font-size: 15px;  
+}
+}
+
+@media (max-width: 680px){
+
+    .sec3_3TD{
+    margin-bottom: -220px;
+    }
+
+     .sec3Mright{
+     position: relative;
+     bottom: 120px;
+     }
+
+     .sec3MPic2D{
+     position: relative;
+     bottom: 70px;
+     }
+
+     .sec3_3TD{
+     position: relative;
+     bottom: 185px;
+     }
+
+}
+
+@media (max-width: 600px){
+    .sec3H2D{
+    width: 280px;
+}
+
+    .sec3H2{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* left */
+
+    .sec3lImg{
+    margin-top: 0px;
+    }
+
+/* right */
+
+.sec3MPdots{
+width: 45px;
+height: 45px;
+}
+}
+
+@media (max-width: 550px){
+
+    .sec3_3TD{
+    margin-bottom: -235px;
+    }
+
+    .sec3_1stH, .sec3_2ndH, .sec3_3rdH{
+    font-size: 26px;
+     }
+    
+     .sec3_1stHt, .sec3_2ndHt, .sec3_3rdHt{
+    font-size: 11px;  
+    }
+}
+
+@media (max-width: 475px){
+
+    .sec3_3TD{
+    margin-bottom: -265px;
+    }
+
+    .sec3H1{
+    font-size: 10px;
+    }
+
+    .sec3H2D{
+    width: 230px;
+    }
+    
+    .sec3H2{
+    font-size: 16px;
+    line-height: 30px;
+    }
+
+    /* right */
+
+    .sec3Mright{
+     position: relative;
+     bottom: 130px;
+     }
+
+    .sec3MPic1D{
+    height: fit-content;
+    }
+
+     .sec3MPdots{
+     width: 25px;
+     height: 25px;
+     bottom: 200px;
+     margin-left: -20px;
+}
+
+    .sec3MtextD{
+    position: relative;
+    bottom: 10px;
+    }
+
+    .sec3Mtext{
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+    .sec3_3TD{
+     position: relative;
+     bottom: 210px;
+     }
+}
+
+@media (max-width: 400px){
+     
+    .sec3MtextD{
+    position: relative;
+    bottom: 20px;
+    }
+}
