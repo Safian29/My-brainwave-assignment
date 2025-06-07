@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 @font-face {
@@ -1232,6 +1232,14 @@ height: 45px;
 }
 
 /* left & right */
+
+.sec5Left{
+    width: fit-content;
+}
+
+.sec5LD1, .sec5LD2, .sec5RD1, .sec5RD2{
+    width: fit-content;
+} 
 
 .sec5LBP, .sec5RBP{
     width: 425px;
