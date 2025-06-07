@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 @font-face {
@@ -1288,10 +1288,6 @@ margin-top: 3px;
     .sec5Left, .sec5Right{
     width: fit-content;
     }
-
-    /* .sec5Left{
-    margin-top: 200px;
-    } */
 }
 
 @media (max-width: 950px){
@@ -1363,6 +1359,11 @@ height: 16px;
     height: 220px;
 }
 
+.sec5Right{
+    position: relative;
+    right: 2.5px;
+}
+
 }
 
 @media (max-width: 450px){
@@ -1374,6 +1375,11 @@ height: 16px;
     .sec5H2{
     font-size: 18px;
     line-height: 25px;
+}
+
+.sec5Right{
+    position: relative;
+    left: 0.6px;
 }
 
 .sec5LBP, .sec5RBP{
