@@ -1360,10 +1360,14 @@ margin-top: 3.4px;
     height: 220px;
 }
 
-.sec5Right{
+.sec5Left{
+    margin: auto;
+}
+
+/* .sec5Right{
     position: relative;
     right: 2.5px;
-}
+} */
 
 }
 
@@ -1378,10 +1382,10 @@ margin-top: 3.4px;
     line-height: 25px;
 }
 
-.sec5Right{
+/* .sec5Right{
     position: relative;
-    right: px;
-}
+    right: 0px;
+} */
 
 
 
