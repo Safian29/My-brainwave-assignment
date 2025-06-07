@@ -1282,7 +1282,7 @@ margin-top: 3px;
     .sec5Main{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     }
 
     .sec5Left, .sec5Right{
@@ -1360,14 +1360,10 @@ margin-top: 3.4px;
     height: 220px;
 }
 
-.sec5Left{
-    margin: auto;
-}
-
-/* .sec5Right{
+.sec5LBP, .sec5LSP{
     position: relative;
-    right: 2.5px;
-} */
+    left: 2.5px;
+}
 
 }
 
