@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 @font-face {
@@ -1360,7 +1360,7 @@ margin-top: 3.4px;
     height: 220px;
 }
 
-.sec5LBP, .sec5LSP{
+.sec5Left{
     position: relative;
     left: 2.5px;
 }
@@ -1377,18 +1377,6 @@ margin-top: 3.4px;
     font-size: 18px;
     line-height: 25px;
 }
-
-/* .sec5Right{
-    position: relative;
-    right: 0px;
-} */
-
-
-
-/* .sec5LT1T1{
-    position: relative;
-    left: 3px;
-} */
 
 .sec5LBP, .sec5RBP{
     width: 220px;
