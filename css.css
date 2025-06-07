@@ -1196,3 +1196,216 @@ height: 45px;
     padding: 5px 5px;
 }
 }
+
+/* SECTION 5 */
+
+.body5{
+    padding-bottom: 50px;
+}
+
+.section5{
+    margin-top: 20px;
+}
+
+.sec5H1{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.sec5H2D{
+    width: 550px;
+}
+
+.sec5H2{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 36px;
+    color: #161C2D;
+    line-height: 48px;
+}
+
+/* main */
+
+.sec5Main{
+    margin-top: 50px;
+}
+
+/* left & right */
+
+.sec5LBP, .sec5RBP{
+    width: 425px;
+    height: 500px;
+}
+
+.sec5LSP, .sec5RSP{
+    width: 425px;
+    height: 320px;
+}
+
+.sec5T1{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 15px;
+    color: #161C2D;
+}
+
+.sec5T2{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 24px;
+    color: #161C2D;
+}
+
+.sec5linkD{
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.sec5link{
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 21px;
+    color: #473BF0;
+}
+
+.sec5linkIMG{
+width: 21px;
+height: 21px;
+margin-top: 3px;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 2000px){
+
+    .sec5Main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    }
+
+    .sec5Left, .sec5Right{
+    width: fit-content;
+    }
+
+    /* .sec5Left{
+    margin-top: 200px;
+    } */
+}
+
+@media (max-width: 950px){
+
+    .sec5LBP, .sec5RBP{
+    width: 325px;
+    height: 420px;
+}
+
+.sec5LSP, .sec5RSP{
+    width: 325px;
+    height: 270px;
+}
+
+.sec5T1{
+    font-size: 12px;
+}
+
+.sec5T2{
+    font-size: 19px;
+}
+
+.sec5linkD{
+    margin-top: 40px;
+}
+
+.sec5link{
+    font-size: 16px;
+}
+
+.sec5linkIMG{
+width: 16px;
+height: 16px;
+}
+
+}
+
+@media (max-width: 800px){
+
+    .sec5H2D{
+    width: 420px;
+}
+
+    .sec5H2{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+}
+
+@media (max-width: 550px){
+
+    .sec5H2D{
+    width: 260px;
+}
+
+    .sec5H2{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.sec5LBP, .sec5RBP{
+    width: 270px;
+    height: 360px;
+}
+
+.sec5LSP, .sec5RSP{
+    width: 270px;
+    height: 220px;
+}
+
+}
+
+@media (max-width: 450px){
+
+    .sec5H2D{
+    width: 220px;
+}
+
+    .sec5H2{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.sec5LBP, .sec5RBP{
+    width: 220px;
+    height: 300px;
+}
+
+.sec5LSP, .sec5RSP{
+    width: 220px;
+    height: 170px;
+}
+
+.sec5T1{
+    font-size: 10px;
+}
+
+.sec5T2{
+    font-size: 15px;
+}
+
+.sec5linkD{
+    margin-top: 30px;
+}
+
+.sec5link{
+    font-size: 12px;
+}
+
+.sec5linkIMG{
+width: 12px;
+height: 12px;
+}
+
+
+}
