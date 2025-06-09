@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 @font-face {
@@ -52,7 +52,7 @@ nav{
     background-color: #473BF0;
     border-radius: 8px;
     border: 1px solid #473BF0;
-    padding: 5px 30px;
+    padding: 7px 30px;
 }
 
 .menuImg{
@@ -986,7 +986,7 @@ height: 45px;
     background-color: #473BF0;
     border-radius: 8px;
     border: 1px solid #473BF0;
-    padding: 5px 30px;
+    padding: 10px 30px;
 }
 
 /* RESPONSIVENESS */
@@ -1140,8 +1140,18 @@ height: 45px;
 
 @media (max-width: 576px){
 
-    .sec4Btn{
+    .sec4BtnD{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4FHD{
+    margin: auto;
+}
+
+.sec4FH, .sec4FT{
+    text-align: center;
 }
 
 }
@@ -1416,14 +1426,11 @@ margin-top: 3.4px;
 .body6{
     background-image: url(Assets/images/BG.png);
     background-repeat: no-repeat;
-    background-size: 1261px 600px;
-    /* height: 502px; */
-    /* padding: 80px 200px; */
-
+    background-size: 1265px 600px;
 }
 
 .section6{
-    margin: 80px 200px;
+    padding: 80px 200px;
 }
 
 .sec6H1{
@@ -1431,6 +1438,7 @@ margin-top: 3.4px;
     font-weight: 700;
     font-size: 13px;
     color: #68D585;
+    
 }
 
 .sec6H2D{
@@ -1472,7 +1480,7 @@ margin-top: 3.4px;
 @media (max-width: 1060px){
 
     .section6{
-    margin: 80px 140px;
+    padding: 80px 140px;
 }
 
     .sec6H2D{
@@ -1487,7 +1495,7 @@ margin-top: 3.4px;
 @media (max-width: 800px){
 
     .section6{
-    margin: 50px 80px;
+    padding: 50px 80px;
 }
 }
 
@@ -1519,7 +1527,7 @@ margin-top: 3.4px;
 @media (max-width: 490px){
 
     .section6{
-    margin: 50px 20px;
+    padding: 50px 20px;
 }
 
     .sec6H2D{
@@ -1533,3 +1541,124 @@ margin-top: 3.4px;
 }
 
 /* SECTION 7 */
+
+.body7{
+    background-color: #161C2D;
+    padding-top: 4px;
+}
+
+.sec4FHD{
+    margin-top: -10px;
+}
+
+.sec7FT{
+    color: #ffffff8e;
+}
+
+.sec7divider {
+  display: flex;
+
+}
+
+.sec7divider::before {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: rgba(131, 131, 131, 0.148);
+  margin: 50px 0 80px 0;
+}
+
+/* footer main */
+
+.sec7Mf{
+    gap: 50px;
+}
+
+.sec7f1D{
+    width: 260px;
+}
+
+.sec7f1H{
+    font-family: rubik;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sec7f2H{
+    font-family: gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff89;
+    line-height: 26px;
+}
+
+.sec7logoD{
+    gap: 20px;
+}
+
+.sec7f2D{
+    width: 145px;
+}
+
+.sec7fTexts{
+    font-family: gilroy;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sec7f1D, .sec7f2D{
+    margin: auto;
+    margin-top: 0;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 850px){
+
+    .sec7f1H{
+    font-size: 22px;
+}
+
+.sec7f2H{
+    font-size: 13px;
+    line-height: 22px;
+}
+
+    .sec7fTexts{
+    font-size: 14px;
+    }
+
+    .sec7logo{
+    width: 15px;
+    height: 15px;
+    }
+
+    .sec7divider::before {
+    margin: 25px 0 40px 0;
+}
+}
+
+@media (max-width: 500px){
+
+    .sec7f1H{
+    font-size: 17px;
+}
+
+.sec7f2H{
+    font-size: 10px;
+    line-height: 22px;
+}
+
+    .sec7fTexts{
+    font-size: 11px;
+    }
+
+    .sec7logo{
+    width: 11px;
+    height: 11px;
+    }
+
+    .sec7divider::before {
+    margin: 15px 0 27px 0;
+}
+}
