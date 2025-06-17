@@ -1497,14 +1497,18 @@ margin-top: 3.4px;
 }
 
 .sec5linkIMG{
-    width: 8px;
-    height: 8px;
-    margin-top: 3.4px;
+    width: 10px;
+    height: 10px;
+    margin-top: 2.4px;
+}
 }
 
+@media (max-width: 418px){
 
+    .sec5linkIMG{
+    margin-top: 1.8px;
 }
-
+}
 
 /* SECTION 6 */
 
