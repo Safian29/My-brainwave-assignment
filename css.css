@@ -50,16 +50,7 @@ nav{
     font-size: 17px;
     font-family: gilroy;
     background-color: #473BF0;
-    border-radius: 8px;
-    border: 1px solid #473BF0;
-    padding: 7px 30px;
 }
-
-.menuImg{
-        display: none;
-        width: 40px;
-        height: 40px;
-    }
 
 /* MAIN */
 .sec1body{
@@ -151,19 +142,11 @@ nav{
 
 }
 
-@media(max-width: 1130px){
-
-    .navBtn, nav .aTags{
-        display: none;
-    }
-
-    .menuImg{
-        display: block;
-    }   
-    
-}
-
 @media(max-width: 900px){
+
+    .sec1body{
+    margin-top: 60px;
+}
 
     .sec1leftH2{
     font-size: 45px;
@@ -196,6 +179,10 @@ nav{
 }
 
 @media(max-width: 450px){
+
+    .sec1body{
+    margin-top: 40px;
+}
 
     .navHt{
     font-size: 19px;
@@ -559,11 +546,12 @@ nav{
 .sec3lImgD{
     width: 103%;
     height: 500px;
+    margin-top: 70px;
+    
 }
 
 .sec3lImg{
     width: 100%;
-    margin-top: 70px;
 }
 
 /* right */
@@ -584,8 +572,8 @@ nav{
                             .sec3MPdots{
                                 width: 70px;
                                 height: 70px;
-                                position: sticky;
-                                bottom: 336px;
+                                position: relative;
+                                bottom: 134px;
                                 margin-left: -43px;
                             }
                             
@@ -651,6 +639,11 @@ nav{
      .sec3_3TD{
      padding-bottom: 60px;
      }
+
+     .sec3MPdots{
+     position: relative;
+     bottom: 170px;
+    }
         
 }
 
@@ -709,6 +702,11 @@ nav{
      bottom: 155px;
      }
 
+     .sec3MPdots{
+     position: relative;
+     bottom: 140px;
+     }
+
 }
 
 @media (max-width: 850px){
@@ -721,7 +719,7 @@ nav{
     width: 370px;
 }
 
-.sec3H2{
+    .sec3H2{
     font-size: 26px;
     line-height: 38px;
 }
@@ -738,10 +736,6 @@ font-size: 13px;
 
 /* left */
 
-.sec3lImg{
-    margin-top: 30px;
-}
-
 .sec3_1stH, .sec3_2ndH, .sec3_3rdH{
 font-size: 36px;
  }
@@ -749,7 +743,19 @@ font-size: 36px;
  .sec3_1stHt, .sec3_2ndHt, .sec3_3rdHt{
 font-size: 15px;  
 }
+
+    .sec3lImgD{
+    margin-top: 30px;
 }
+}
+
+@media (max-width: 780px){
+
+     .sec3MPdots{
+     position: relative;
+     bottom: 100px;
+     }
+    }
 
 @media (max-width: 680px){
 
@@ -774,6 +780,17 @@ font-size: 15px;
 
 }
 
+@media (max-width: 633px){
+
+    .sec3MPdots{
+     position: relative;
+     bottom: 80px;
+     width: 45px;
+     height: 45px;
+     }
+
+}
+
 @media (max-width: 600px){
     .sec3H2D{
     width: 280px;
@@ -789,13 +806,6 @@ font-size: 15px;
     .sec3lImg{
     margin-top: 0px;
     }
-
-/* right */
-
-.sec3MPdots{
-width: 45px;
-height: 45px;
-}
 }
 
 @media (max-width: 550px){
@@ -812,6 +822,14 @@ height: 45px;
     font-size: 11px;  
     }
 }
+
+@media (max-width: 480px){
+
+    .sec3MPdots{
+     position: relative;
+     bottom: 60px;
+     }
+    }
 
 @media (max-width: 475px){
 
@@ -843,13 +861,6 @@ height: 45px;
     height: fit-content;
     }
 
-     .sec3MPdots{
-     width: 25px;
-     height: 25px;
-     bottom: 200px;
-     margin-left: -20px;
-}
-
     .sec3MtextD{
     position: relative;
     bottom: 10px;
@@ -864,7 +875,19 @@ height: 45px;
      position: relative;
      bottom: 210px;
      }
+
+    .sec3lImgD{
+    margin-top: 17px;
 }
+}
+
+@media (max-width: 435px){
+
+     .sec3MPdots{
+     position: relative;
+     bottom: 40px;
+     }
+    }
 
 @media (max-width: 400px){
      
@@ -873,6 +896,14 @@ height: 45px;
     bottom: 20px;
     }
 }
+
+@media (max-width: 347px){
+
+     .sec3MPdots{
+     position: relative;
+     bottom: 35px;
+     }
+    }
 
 
 
@@ -1476,6 +1507,14 @@ margin-top: 3.4px;
 }
 
 /* RESPONSIVENESS */
+
+@media (max-width: 1280px){
+    .body6{
+    background-image: url(Assets/images/BG.png);
+    background-repeat: no-repeat;
+    background-size: 1276px 600px;
+}
+}
 
 @media (max-width: 1060px){
 
