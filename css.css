@@ -629,6 +629,19 @@ nav{
 
 @media (max-width: 1199px){
 
+    .sec3H1{
+    text-align: center;
+}
+
+    .sec3H2D{
+    margin: auto;
+    width: 550px;
+}
+
+    .sec3H2{
+    text-align: center;
+}
+
      .sec3_3TD{
      margin-top: 0px;
      }
@@ -1481,6 +1494,12 @@ margin-top: 3.4px;
 
 .sec5link{
     font-size: 12px;
+}
+
+.sec5linkIMG{
+    width: 10px;
+    height: 10px;
+    margin-top: 2.4px;
 }
 
 
